@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "hls_packet_receiver",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/sai.divya\/pkt_clone\/AI_Engine_Development\/Feature_Tutorials\/04-packet-switching\/pktstream_aie\/pl_kernels\/_x\/hls_packet_receiver\/hls_packet_receiver\/hls_packet_receiver.tcl",
+          "sourceLine": "23",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "hls_packet_receiver"
+              }]
+          }
+        }]
+    }]}

@@ -1,0 +1,26 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/reports/hls_packet_receiver
+	Log files: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/logs/hls_packet_receiver
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.xo.compile_summary, at Wed Dec  3 14:35:55 2025
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/reports/hls_packet_receiver/v++_compile_hls_packet_receiver_guidance.html', at Wed Dec  3 14:35:55 2025
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1/xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1/hw/xilinx_vck5000_gen4x8_qdma_2_202220_1.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2022.2
+INFO: [v++ 60-585] Compiling for hardware target
+INFO: [v++ 60-423]   Target device: xilinx_vck5000_gen4x8_qdma_2_202220_1
+INFO: [v++ 60-242] Creating kernel: 'hls_packet_receiver'
+INFO: [v++ 60-1616] Creating a HLS clock using kernel_frequency option: 250 MHz
+
+===>The following messages were generated while  performing high-level synthesis for kernel: hls_packet_receiver Log file: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/vitis_hls.log :
+ERROR: [v++ 207-3776] use of undeclared identifier 'Dataout0_0' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:51)
+ERROR: [v++ 207-3776] use of undeclared identifier 'Dataout0_1' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:63)
+ERROR: [v++ 207-3776] use of undeclared identifier 'Dataout0_2' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:75)
+ERROR: [v++ 207-3776] use of undeclared identifier 'Dataout0_3' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:87)
+ERROR: [v++ 60-300] Failed to build kernel(ip) hls_packet_receiver, see log for details: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/vitis_hls.log
+ERROR: [v++ 60-773] In '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3776] use of undeclared identifier 'Dataout0_0' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:51)
+ERROR: [v++ 60-773] In '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3776] use of undeclared identifier 'Dataout0_1' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:63)
+ERROR: [v++ 60-773] In '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3776] use of undeclared identifier 'Dataout0_2' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:75)
+ERROR: [v++ 60-773] In '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/vitis_hls.log', caught Tcl error: ERROR: [HLS 207-3776] use of undeclared identifier 'Dataout0_3' (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:87)
+ERROR: [v++ 60-599] Kernel compilation failed to complete
+ERROR: [v++ 60-592] Failed to finish compilation
+INFO: [v++ 60-1653] Closing dispatch client.

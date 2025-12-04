@@ -1,0 +1,167 @@
+<ENTRY>
+{
+ "thisFile": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Dec  3 14:35:54 2025",
+ "timestampMillis": "1764772554721",
+ "buildStep": {
+  "cmdId": "b3ebfc89-14b6-4da2-a8a3-416102dc4bdd",
+  "name": "v++",
+  "logFile": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver.steps.log",
+  "commandLine": "/home/Xilinx/Vitis_2022_2/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c --platform /opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1/xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm -k hls_packet_receiver --kernel_frequency 250 hls_packet_receiver.cpp -o hls_packet_receiver.xo --verbose --save-temps ",
+  "args": [
+   "-c",
+   "--platform",
+   "/opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1/xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm",
+   "-k",
+   "hls_packet_receiver",
+   "--kernel_frequency",
+   "250",
+   "hls_packet_receiver.cpp",
+   "-o",
+   "hls_packet_receiver.xo",
+   "--verbose",
+   "--save-temps"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:35:54 2025",
+ "timestampMillis": "1764772554722",
+ "status": {
+  "cmdId": "b3ebfc89-14b6-4da2-a8a3-416102dc4bdd",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Dec  3 14:35:59 2025",
+ "timestampMillis": "1764772559424",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "hls_packet_receiver",
+     "file": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.2. SW Build 3671529 on 2022-10-13-17:52:11"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  3 14:35:59 2025",
+ "timestampMillis": "1764772559431",
+ "buildStep": {
+  "cmdId": "75083cf1-6ef2-445d-b587-924852042a18",
+  "name": "vitis_hls",
+  "logFile": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/hls_packet_receiver.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/hls_packet_receiver.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:35:59 2025",
+ "timestampMillis": "1764772559432",
+ "status": {
+  "cmdId": "75083cf1-6ef2-445d-b587-924852042a18",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:36:08 2025",
+ "timestampMillis": "1764772568934",
+ "status": {
+  "cmdId": "75083cf1-6ef2-445d-b587-924852042a18",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:36:08 2025",
+ "timestampMillis": "1764772568942",
+ "status": {
+  "cmdId": "b3ebfc89-14b6-4da2-a8a3-416102dc4bdd",
+  "state": "CS_FAILED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:36:09 2025",
+ "timestampMillis": "1764772569039",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/reports/hls_packet_receiver/v++_compile_hls_packet_receiver_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:36:09 2025",
+ "timestampMillis": "1764772569040",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/v++_compile_hls_packet_receiver_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

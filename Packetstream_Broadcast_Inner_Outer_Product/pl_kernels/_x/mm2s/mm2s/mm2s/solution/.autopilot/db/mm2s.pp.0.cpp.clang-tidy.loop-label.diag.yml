@@ -1,0 +1,58 @@
+---
+MainSourceFile:  /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.pp.0.cpp
+Diagnostics:     
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1211_1:  '
+    FileOffset:      1211
+    FilePath:        /home/Xilinx/Vitis_2022_2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_base.h
+    Replacements:    
+      - FilePath:        /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.pp.0.cpp
+        Offset:          52534
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1211_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_676_1:  '
+    FileOffset:      676
+    FilePath:        /home/Xilinx/Vitis_2022_2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.pp.0.cpp
+        Offset:          259970
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_676_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_690_1:  '
+    FileOffset:      690
+    FilePath:        /home/Xilinx/Vitis_2022_2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.pp.0.cpp
+        Offset:          260409
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_690_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_704_1:  '
+    FileOffset:      704
+    FilePath:        /home/Xilinx/Vitis_2022_2/Vitis_HLS/2022.2/common/technology/autopilot/ap_int_ref.h
+    Replacements:    
+      - FilePath:        /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.pp.0.cpp
+        Offset:          260849
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_704_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_1245_1:  '
+    FileOffset:      1245
+    FilePath:        /home/Xilinx/Vitis_2022_2/Vitis_HLS/2022.2/common/technology/autopilot/ap_fixed_base.h
+    Replacements:    
+      - FilePath:        /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.pp.0.cpp
+        Offset:          523099
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_1245_1: '
+  - DiagnosticName:  xilinx-label-all-loops
+    Message:         'Added loop label VITIS_LOOP_29_1:  '
+    FileOffset:      29
+    FilePath:        /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/mm2s.cpp
+    Replacements:    
+      - FilePath:        /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.pp.0.cpp
+        Offset:          887085
+        Length:          0
+        ReplacementText: 'VITIS_LOOP_29_1: '
+...

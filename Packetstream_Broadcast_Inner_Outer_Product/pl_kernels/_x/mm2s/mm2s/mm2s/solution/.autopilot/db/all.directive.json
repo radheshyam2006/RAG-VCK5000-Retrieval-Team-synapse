@@ -1,0 +1,18 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "mm2s",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/home\/sai.divya\/pkt_clone\/AI_Engine_Development\/Feature_Tutorials\/04-packet-switching\/pktstream_aie\/pl_kernels\/_x\/mm2s\/mm2s\/mm2s.tcl",
+          "sourceLine": "23",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "mm2s"
+              }]
+          }
+        }]
+    }]}

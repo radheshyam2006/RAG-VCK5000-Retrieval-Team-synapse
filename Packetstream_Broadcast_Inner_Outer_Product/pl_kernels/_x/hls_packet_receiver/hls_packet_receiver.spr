@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hls_packet_receiver" dir="">
+  <FileSets>
+    <FileSet Name="kernel_hls_packet_receiver" Type="DesignSrcs">
+      <File Path="/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp"/>
+      <Config/>
+    </FileSet>
+  </FileSets>
+  <Runs/>
+</project>

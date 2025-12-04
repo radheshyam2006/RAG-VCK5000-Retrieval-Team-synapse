@@ -1,0 +1,63 @@
+<dict>
+  <key>main-file</key>
+  <string>/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/hls_packet_receiver/hls_packet_receiver/hls_packet_receiver/solution/.autopilot/db/hls_packet_receiver.pp.0.cpp</string>
+  <key>diagnostics</key>
+  <array>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp</string>
+      <key>line</key>
+      <integer>21</integer>
+      <key>column</key>
+      <integer>51</integer>
+      <key>message</key>
+      <string>use of undeclared identifier &apos;Dataout0_0&apos;</string>
+      <key>ID</key>
+      <integer>3776</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp</string>
+      <key>line</key>
+      <integer>21</integer>
+      <key>column</key>
+      <integer>63</integer>
+      <key>message</key>
+      <string>use of undeclared identifier &apos;Dataout0_1&apos;</string>
+      <key>ID</key>
+      <integer>3776</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp</string>
+      <key>line</key>
+      <integer>21</integer>
+      <key>column</key>
+      <integer>75</integer>
+      <key>message</key>
+      <string>use of undeclared identifier &apos;Dataout0_2&apos;</string>
+      <key>ID</key>
+      <integer>3776</integer>
+    </dict>
+    <dict>
+      <key>level</key>
+      <string>error</string>
+      <key>filename</key>
+      <string>/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp</string>
+      <key>line</key>
+      <integer>21</integer>
+      <key>column</key>
+      <integer>87</integer>
+      <key>message</key>
+      <string>use of undeclared identifier &apos;Dataout0_3&apos;</string>
+      <key>ID</key>
+      <integer>3776</integer>
+    </dict>
+  </array>
+</dict>

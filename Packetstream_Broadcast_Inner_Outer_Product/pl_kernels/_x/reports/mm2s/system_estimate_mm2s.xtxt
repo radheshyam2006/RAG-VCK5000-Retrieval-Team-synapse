@@ -1,0 +1,42 @@
+===============================================================================
+Version:    v++ v2022.2 (64-bit)
+Build:      SW Build 3671529 on 2022-10-13-17:52:11
+Copyright:  Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Created:    Wed Dec  3 14:35:42 2025
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             mm2s
+Target Device:           xilinx:vck5000:gen4x8_qdma_2:202220.1
+Target Clock:            250MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name  Type  Target              OpenCL Library  Compute Units
+-----------  ----  ------------------  --------------  -------------
+mm2s         c     fpga0:OCL_REGION_0  mm2s            1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     mm2s
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit  Kernel Name  Module Name                    Target Frequency  Estimated Frequency
+------------  -----------  -----------------------------  ----------------  -------------------
+mm2s_1        mm2s         mm2s_Pipeline_VITIS_LOOP_29_1  250               342.465759
+mm2s_1        mm2s         mm2s                           250               342.465759
+
+Latency Information
+Compute Unit  Kernel Name  Module Name                    Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+------------  -----------  -----------------------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+mm2s_1        mm2s         mm2s_Pipeline_VITIS_LOOP_29_1  undef           undef          undef         undef           undef            undef           undef
+mm2s_1        mm2s         mm2s                           undef           undef          undef         undef           undef            undef           undef
+
+Area Information
+Compute Unit  Kernel Name  Module Name                    FF    LUT   DSP  BRAM  URAM
+------------  -----------  -----------------------------  ----  ----  ---  ----  ----
+mm2s_1        mm2s         mm2s_Pipeline_VITIS_LOOP_29_1  36    123   0    0     0
+mm2s_1        mm2s         mm2s                           1112  1667  0    0     0
+-------------------------------------------------------------------------------

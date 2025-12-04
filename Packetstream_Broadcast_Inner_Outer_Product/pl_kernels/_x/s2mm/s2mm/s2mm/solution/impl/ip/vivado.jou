@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Dec  3 14:34:03 2025
+# Process ID: 2172735
+# Current directory: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/s2mm/s2mm/s2mm/solution/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/s2mm/s2mm/s2mm/solution/impl/ip/vivado.log
+# Journal file: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/s2mm/s2mm/s2mm/solution/impl/ip/vivado.jou
+# Running On: node08, OS: Linux, CPU Frequency: 1200.540 MHz, CPU Physical cores: 20, Host memory: 135044 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

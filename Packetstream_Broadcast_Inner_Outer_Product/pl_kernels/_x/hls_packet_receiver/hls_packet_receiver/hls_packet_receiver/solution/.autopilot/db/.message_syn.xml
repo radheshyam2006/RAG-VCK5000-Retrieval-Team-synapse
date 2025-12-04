@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 754.660 MB." resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp&apos; ..." resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-3776]" key="HLS 207-3776" tag="" content="use of undeclared identifier &apos;Dataout0_0&apos; (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:51)" resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-3776]" key="HLS 207-3776" tag="" content="use of undeclared identifier &apos;Dataout0_1&apos; (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:63)" resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-3776]" key="HLS 207-3776" tag="" content="use of undeclared identifier &apos;Dataout0_2&apos; (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:75)" resolution=""/>
+	<Message severity="ERROR" prefix="[HLS 207-3776]" key="HLS 207-3776" tag="" content="use of undeclared identifier &apos;Dataout0_3&apos; (/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/hls_packet_receiver.cpp:21:87)" resolution=""/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="RUNTIME" content="Finished Command csynth_design CPU user time: 0.86 seconds. CPU system time: 0.31 seconds. Elapsed time: 1.23 seconds; current allocated memory: 0.762 MB." resolution=""/>
+</Messages>

@@ -1,0 +1,42 @@
+===============================================================================
+Version:    v++ v2022.2 (64-bit)
+Build:      SW Build 3671529 on 2022-10-13-17:52:11
+Copyright:  Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Created:    Wed Dec  3 14:34:31 2025
+===============================================================================
+
+-------------------------------------------------------------------------------
+Design Name:             s2mm
+Target Device:           xilinx:vck5000:gen4x8_qdma_2:202220.1
+Target Clock:            250MHz
+Total number of kernels: 1
+-------------------------------------------------------------------------------
+
+Kernel Summary
+Kernel Name  Type  Target              OpenCL Library  Compute Units
+-----------  ----  ------------------  --------------  -------------
+s2mm         c     fpga0:OCL_REGION_0  s2mm            1
+
+
+-------------------------------------------------------------------------------
+OpenCL Binary:     s2mm
+Kernels mapped to: clc_region
+
+Timing Information (MHz)
+Compute Unit  Kernel Name  Module Name                    Target Frequency  Estimated Frequency
+------------  -----------  -----------------------------  ----------------  -------------------
+s2mm_1        s2mm         s2mm_Pipeline_VITIS_LOOP_29_1  250               342.465759
+s2mm_1        s2mm         s2mm                           250               342.465759
+
+Latency Information
+Compute Unit  Kernel Name  Module Name                    Start Interval  Best (cycles)  Avg (cycles)  Worst (cycles)  Best (absolute)  Avg (absolute)  Worst (absolute)
+------------  -----------  -----------------------------  --------------  -------------  ------------  --------------  ---------------  --------------  ----------------
+s2mm_1        s2mm         s2mm_Pipeline_VITIS_LOOP_29_1  undef           undef          undef         undef           undef            undef           undef
+s2mm_1        s2mm         s2mm                           undef           undef          undef         undef           undef            undef           undef
+
+Area Information
+Compute Unit  Kernel Name  Module Name                    FF    LUT   DSP  BRAM  URAM
+------------  -----------  -----------------------------  ----  ----  ---  ----  ----
+s2mm_1        s2mm         s2mm_Pipeline_VITIS_LOOP_29_1  66    121   0    0     0
+s2mm_1        s2mm         s2mm                           1140  1669  0    0     0
+-------------------------------------------------------------------------------

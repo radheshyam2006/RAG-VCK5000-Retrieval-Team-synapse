@@ -1,0 +1,110 @@
+--- !Passed
+Pass:            reflow-burst-inference
+Name:            BurstInferred
+DebugLoc:        { File: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp, 
+                   Line: 29, Column: 19 }
+Function:        s2mm
+Args:            
+  - String:          'Sequential '
+  - Direction:       write
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length'
+  - String:          ' has been inferred'
+  - String:          ' _XLX_SEP_ OldID='
+  - String:          for.inc.store.12
+  - String:          ', '
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        memseq
+  - String:          ' '
+  - ArrayName:       mem
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_29_1
+  - String:          ' '
+  - LoopLoc:         '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp:29:19'
+  - String:          ' '
+  - Function:        s2mm
+    DebugLoc:        { File: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp, 
+                       Line: 20, Column: 0 }
+  - String:          ' '
+...
+--- !Missed
+Pass:            reflow-burst-widen
+Name:            BadAccessLen
+DebugLoc:        { File: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp, 
+                   Line: 29, Column: 19 }
+Function:        s2mm
+Args:            
+  - String:          Sequential access length is not divisible by 2
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        memseq
+  - String:          ' '
+  - ArrayName:       mem
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_29_1
+  - String:          ' '
+  - LoopLoc:         '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp:29:19'
+  - String:          ' '
+  - Function:        s2mm
+    DebugLoc:        { File: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp, 
+                       Line: 20, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredVerboseSummary
+DebugLoc:        { File: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp, 
+                   Line: 29, Column: 19 }
+Function:        s2mm
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '32'
+  - String:          ' has been inferred.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+  - String:          ' _XLX_SEP_ '
+  - AccessID:        seq
+  - String:          ' '
+  - ArrayName:       ''
+  - String:          ' '
+  - BundleName:      gmem
+  - String:          ' '
+  - LoopName:        VITIS_LOOP_29_1
+  - String:          ' '
+  - LoopLoc:         '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp:29:19'
+  - String:          ' '
+  - Function:        s2mm
+    DebugLoc:        { File: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp, 
+                       Line: 20, Column: 0 }
+  - String:          ' '
+...
+--- !Passed
+Pass:            reflow-burst-summary
+Name:            BurstInferredSummary
+DebugLoc:        { File: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp, 
+                   Line: 29, Column: 19 }
+Function:        s2mm
+Args:            
+  - String:          'Multiple burst '
+  - Direction:       writes
+  - String:          ' of '
+  - Length:          variable
+  - String:          ' length and bit width '
+  - Width:           '32'
+  - String:          ' in loop '''
+  - LoopName:        VITIS_LOOP_29_1
+  - String:          '''('
+  - LoopLoc:         '/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp:29:19'
+  - String:          ')'
+  - String:          ' has been inferred on bundle '''
+  - BundleName:      gmem
+  - String:          '''.'
+  - String:          ' These burst requests might be further partitioned into multiple requests during RTL generation, based on max_read_burst_length or max_write_burst_length settings.'
+...

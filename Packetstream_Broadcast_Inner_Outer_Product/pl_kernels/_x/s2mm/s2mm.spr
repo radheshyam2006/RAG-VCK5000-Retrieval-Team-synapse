@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="s2mm" dir="">
+  <FileSets>
+    <FileSet Name="kernel_s2mm" Type="DesignSrcs">
+      <File Path="/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/s2mm.cpp"/>
+      <Config/>
+    </FileSet>
+  </FileSets>
+  <Runs/>
+</project>

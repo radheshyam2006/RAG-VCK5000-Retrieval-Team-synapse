@@ -1,0 +1,2 @@
+performing high-level synthesis for kernel: mm2s
+Log file: /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/vitis_hls.log

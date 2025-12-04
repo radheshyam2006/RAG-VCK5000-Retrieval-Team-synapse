@@ -1,0 +1,237 @@
+<ENTRY>
+{
+ "thisFile": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/mm2s.xo.compile_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Wed Dec  3 14:34:43 2025",
+ "timestampMillis": "1764772483649",
+ "buildStep": {
+  "cmdId": "9cf932e0-3bca-40ea-8a1a-5b9a0241e0a9",
+  "name": "v++",
+  "logFile": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s.steps.log",
+  "commandLine": "/home/Xilinx/Vitis_2022_2/Vitis/2022.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -c --platform /opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1/xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm -k mm2s --kernel_frequency 250 mm2s.cpp -o mm2s.xo --verbose --save-temps ",
+  "args": [
+   "-c",
+   "--platform",
+   "/opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1/xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm",
+   "-k",
+   "mm2s",
+   "--kernel_frequency",
+   "250",
+   "mm2s.cpp",
+   "-o",
+   "mm2s.xo",
+   "--verbose",
+   "--save-temps"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:34:43 2025",
+ "timestampMillis": "1764772483650",
+ "status": {
+  "cmdId": "9cf932e0-3bca-40ea-8a1a-5b9a0241e0a9",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Wed Dec  3 14:34:48 2025",
+ "timestampMillis": "1764772488219",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_vck5000_gen4x8_qdma_2_202220_1.xpfm",
+  "hardwareDsa": "",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_vck5000_gen4x8_qdma_2_202220_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_COMPILE",
+  "target": "TT_HW",
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "mm2s",
+     "file": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/mm2s.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/mm2s.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2022.2. SW Build 3671529 on 2022-10-13-17:52:11"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Wed Dec  3 14:34:48 2025",
+ "timestampMillis": "1764772488225",
+ "buildStep": {
+  "cmdId": "48f3669d-691c-4817-9e54-0792c5c9d6bc",
+  "name": "vitis_hls",
+  "logFile": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/vitis_hls.log",
+  "commandLine": "vitis_hls -f /home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s.tcl -messageDb vitis_hls.pb",
+  "args": [
+   "vitis_hls",
+   "-f",
+   "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s.tcl",
+   "-messageDb",
+   "vitis_hls.pb"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:34:48 2025",
+ "timestampMillis": "1764772488226",
+ "status": {
+  "cmdId": "48f3669d-691c-4817-9e54-0792c5c9d6bc",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542058",
+ "status": {
+  "cmdId": "48f3669d-691c-4817-9e54-0792c5c9d6bc",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542182",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/mm2s.design.xml",
+  "name": "mm2s",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_REPORT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542183",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/.autopilot/db/.message_syn.xml",
+  "name": "mm2s",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_DRC_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542188",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/reports/mm2s/hls_reports/mm2s_csynth.rpt",
+  "name": "mm2s",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542189",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/mm2s/mm2s/mm2s/solution/syn/report/mm2s_csynth.xml",
+  "name": "mm2s",
+  "fileType": "XML",
+  "reportType": "KERNEL_HLS_CSYNTH",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542197",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/reports/mm2s/system_estimate_mm2s.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542303",
+ "status": {
+  "cmdId": "9cf932e0-3bca-40ea-8a1a-5b9a0241e0a9",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542402",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/reports/mm2s/v++_compile_mm2s_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Wed Dec  3 14:35:42 2025",
+ "timestampMillis": "1764772542404",
+ "report": {
+  "path": "/home/sai.divya/pkt_clone/AI_Engine_Development/Feature_Tutorials/04-packet-switching/pktstream_aie/pl_kernels/_x/v++_compile_mm2s_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
